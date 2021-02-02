@@ -1,0 +1,167 @@
+stories = {
+	"highschool":[{
+		"id": "",
+		"storyline":"You start outside of an abandoned high school. You have two options.",
+		"options": ["[1] Enter the school", "[2]: Walk away"],
+	}, {
+		"id": "1",
+		"storyline": "You enter the high school. What do you do next?",
+		"options": ["[1] Look around for life forms", "[2]: Walk away", "[3]: Rob all the lockers"],
+	}, {
+		"id": "11",
+		"storyline": "You find no forms of life, not even plants, inside of the high school. ",
+		"options":["[1]: Ok"],
+		"gobackto": "1",
+	}, {
+		"id": "2",
+		"storyline": "You start to walk away, but then you hear a voice. It is the voice of the person you've always had a crush on. What do you do?",
+		"options": ["[1] Go into the high school", "[2]: Resist the temptation", "[3]: Try and speak to the figure"],
+	}, {
+		"id": "23",
+		"storyline": "The figure is a wormhole set up by the enemy, and you get sucked into another universe and die.",
+		"options": [],
+		"lose": true
+	}, {
+		"id": "12",
+		"storyline": "You try to walk away, but you find that the door is no longer there, and where the entrance was there is now a solid brick wall!",
+		"options": ["[1] Try to run through the wall", "[2]: Go back to the previous menu"]
+	}, {
+		"id":"122",
+		"storyline":"You turn around, your back facing the entrance that once was.",
+		"options": ["[1] Ok"],
+		"gobackto": "1"
+	}, {
+		"id":"121",
+		"storyline": "You try to run your way through the wall, but the wall is a bit too hard, you break your skull and you die.",
+		"options": [],
+		"lose":true
+	}, {
+		"id": "13",
+		"storyline": "You spend about an hour or so, looking through every locker in the school for something you could possibly use. There is a corpse (of possibly a student) inside of every single locker. What do you do next?",
+		"options": ["[1] Search each corpse for something useful", "[2]: Re-search the lockers"]
+	}, {
+		"id": "131",
+		"storyline": "You search every corpse, and see that a lot of them have been heavily bruised and they all seem fresh. You find a name tag.",
+		"options": ["[1] Search all the classrooms", "[2]: Try to find the cafeteria and see if you can find something to eat there"]
+	}, {
+		"id": "132",
+		"storyline": "You find nothing useful.",
+		"options": ["[1] Go back to the previous menu"],
+		"gobackto": "13"
+	}, {
+		"id":"1311",
+		"storyline":"You go into each of the classrooms that you find, and in each of them you find a dead teacher. Strangely, they were all wearing the same clothes.",
+		"options": ["[1] Go back", "[2] Search the pockets of the teachers"]
+	}, {
+		"id":"13111",
+		"storyline":"You go back to where you have started.",
+		"options": ["[1] Ok"],
+		"gobackto": "131"
+	}, {
+		"id":"13112",
+		"storyline":"You try to search each teacher's pocket, and in one of them, you find a gun. A few seconds later, you hear a scream.",
+		"options": ["[1] Go to the scream", "[2] Try to find more bullets", "[3] Go to the cafeteria to find something to eat"]
+	}, {
+		"id":"131121",
+		"storyline":"You move towards the scream, gun in hand, and when you are at the scene nothing seems to have happened, and nothing has changed.",
+		"options": ["[1] Go back to the previous menu"],
+		"gobackto": "13112"
+	}, {
+		"id":"131122",
+		"storyline":'You look around and try to find some bullets, and right next to the bullets this is written in blood: "Another has fallen. Are you next?"',
+		"options": ["[1] Take the bullets", "[2] Try to run away"]
+	}, {
+		"id":"131123",
+		"storyline":"You go to the cafeteria, and everywhere you walk, there seems to be blood. You almost slip and fall into a particularly large puddle of it.",
+		"options": ["[1] Look in the lunch lady room", "[2] Run away from there"]
+	}, {
+		"id":"1311221",
+		"storyline":"You take the bullets, and just as you're about to leave, you see a massive shadow move toward you.",
+		"options": ["[1] Shoot at the shadow", "[2] Try to run through the shadow"]
+	}, {
+		"id":"1311222",
+		"storyline":"You try to run away, but there is a shadow blocking your path. It consumes you, and your soul is taken.",
+		"options": [],
+		"lose": true
+	}, {
+		"id":"1311231",
+		"storyline":"You shoot at the shadow to no avail. It is, of course, a shadow and cannot be attacked. Seeing this though, the shadow is a slight scared and backs off.",
+		"options":["[1] Try to shoot more", "[2] Fumble around in your gear and try to find light", "[3] Sing to the shadow"]
+	}, {
+		"id":"13112311",
+		"storyline":"You are out of bullets. The shadow senses this, and charges forward. Your soul is taken, and you have failed to rescue yourself.",
+		"options":[],
+		"lose": true
+	}, {
+		"id":"13112312",
+		"storyline":"You try searching your pockets for any source of light, and you find a lighter. You think that this can provide light and scare off the shadow, and all you have done is roast yourself alive inside of a burning school.",
+		"options":[],
+		"lose": true
+	}, {
+		"id":"13112313",
+		"storyline":"You try singing *happy birthday* to the shadow. The shadow is overwhelmed by memories before it became dark, and almost fades. Taking this chance, you run away when the shadow is weak, and it does not consume you.",
+		"options":["[1] Try to go find more bullets", "[2] Search the principal office"]
+	}, {
+		"id":"131123131",
+		"storyline":"You run around the school trying to find more bullets. You stumble upon what seems to be the detention room, and inside of there are living beings that you overlooked on the first search.",
+		"options":["[1] Try to socialize", "[2] Run away"]
+	}, {
+		"id":"131123132",
+		"storyline":"You try to find the principal's office. When you find it, you also find a clock that works for some reason. It reads 9:49 PM.",
+		"options":["[1] Go inspect the clock", "[2] Try to look for a key"]
+	}, {
+		"id":"1311231311",
+		"storyline":"You try to socialize with the living beings that are talking to one another. The second you speak a word though, they vanish, and you realize how alone you are and how desperate you are for companionship.",
+		"options":["[1] Cry yourself to death", "[2] Suicide"]
+	}, {
+		"id":"1311231321",
+		"storyline":"You inspect the clock, and it seems that there are no batteries. You wonder how the clock operates, and you take it with you.",
+		"options":["[1] Go back to the previous menu"],
+		"gobackto": "131123132"
+	}, {
+		"id":"1311231322",
+		"storyline":"You look around for a key, and you find one. This one seems to be a small key, not for the door of the highschool that started this nightmare.",
+		"options":["[1] Try to find a keyhole this key fits in", "[2] "]
+	}, {
+		"id":"",
+		"storyline":"",
+		"options":[]
+	}, {
+		"id":"",
+		"storyline":"",
+		"options":[]
+	}, {
+		"id":"",
+		"storyline":"",
+		"options":[]
+	}, {
+		"id":"",
+		"storyline":"",
+		"options":[]
+	}, {
+		"id":"",
+		"storyline":"",
+		"options":[]
+	}, {
+		"id":"",
+		"storyline":"",
+		"options":[]
+	}, {
+		"id":"",
+		"storyline":"",
+		"options":[]
+	}, {
+		"id":"",
+		"storyline":"",
+		"options":[]
+	}, {
+		"id":"",
+		"storyline":"",
+		"options":[]
+	}, {
+		"id":"",
+		"storyline":"",
+		"options":[]
+	}
+	]
+}
